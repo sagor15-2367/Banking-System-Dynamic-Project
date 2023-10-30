@@ -12,11 +12,11 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     const newDepositTotal = previousDepositTotal + newDepositAmount;
     depositTotalElement.innerText = newDepositTotal;
 
-    const balanceTotalElement=document.getElementById('balance-total');
-    const previousBalanceTotalString=balanceTotalElement.innerText;
-    const previousBalanceTotal=parseFloat(previousBalanceTotalString);
+    const balanceTotalElement = document.getElementById('balance-total');
+    const previousBalanceTotalString = balanceTotalElement.innerText;
+    const previousBalanceTotal = parseFloat(previousBalanceTotalString);
 
-    const newBalanceTotal=previousBalanceTotal+newDepositAmount;
-    balanceTotalElement.innerText=newBalanceTotal;
+    const newBalanceTotal = previousBalanceTotal + newDepositAmount;
+    balanceTotalElement.innerText = newBalanceTotal;
 
 })
